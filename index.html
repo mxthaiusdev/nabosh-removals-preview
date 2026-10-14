@@ -17,8 +17,8 @@
   <meta property="og:description" content="People first, not just a service. Careful house removals and a team you can trust.">
   <meta property="og:image" content="https://naboshremovals.co.uk/images/nabosh-campaign-team.jpeg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"MovingCompany","name":"Nabosh Removals","url":"https://naboshremovals.co.uk/","telephone":"+441914683306","email":"info@naboshremovals.co.uk","image":"https://naboshremovals.co.uk/images/nabosh-campaign-team.jpeg","areaServed":{"@type":"Country","name":"United Kingdom"}}</script>
-  <script type="module" crossorigin src="/nabosh-removals-preview/assets/index-ZaqJlKWg.js"></script>
-  <link rel="stylesheet" crossorigin href="/nabosh-removals-preview/assets/index-B8p3-24s.css">
+  <script type="module" crossorigin src="/nabosh-removals-preview/assets/index-8ZfGDMbq.js"></script>
+  <link rel="stylesheet" crossorigin href="/nabosh-removals-preview/assets/index-eciROCtm.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -78,8 +78,17 @@
             <section class="booking-step inventory-step" data-booking-step aria-labelledby="inventory-title">
               <div class="inventory-layout">
                 <div class="inventory-shop">
-                  <div class="booking-step-heading"><div><span class="step-kicker">01 · BUILD YOUR LOAD</span><h3 id="inventory-title">WHAT’S COMING WITH YOU?</h3></div><p>Tap to add. Search for a piece or pick the closest size.</p></div>
-                  <label class="inventory-search"><span class="sr-only">Search furniture</span><input id="inventory-search" type="search" placeholder="Search sofa, fridge, wardrobe…" autocomplete="off"><span aria-hidden="true">⌕</span></label>
+                  <div class="booking-step-heading"><h3 id="inventory-title">WHAT’S COMING WITH YOU?</h3></div>
+                  <button class="inventory-launch" id="inventory-launch" type="button" aria-haspopup="dialog" aria-controls="inventory-picker" aria-expanded="false">
+                    <span class="inventory-launch-art" aria-hidden="true"></span>
+                    <span class="inventory-launch-copy"><small>YOUR ITEM LIST</small><strong>OPEN FURNITURE PICKER</strong><span id="inventory-launch-count">ADD YOUR FIRST ITEM</span></span>
+                    <svg class="inventory-launch-arrow" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 4 8 8-8 8"/></svg>
+                  </button>
+                  <button class="inventory-picker-backdrop" id="inventory-picker-backdrop" type="button" aria-label="Close furniture picker" hidden></button>
+                  <div class="inventory-picker" id="inventory-picker" role="dialog" aria-modal="true" aria-labelledby="inventory-picker-title" hidden>
+                    <header class="inventory-picker-head"><div><span>YOUR FURNITURE</span><h4 id="inventory-picker-title">PICK YOUR ITEMS.</h4></div><button id="inventory-picker-close" type="button" aria-label="Close furniture picker">×</button></header>
+                    <div class="inventory-picker-scroll">
+                  <label class="inventory-search"><span class="sr-only">Search furniture</span><input id="inventory-search" type="search" placeholder="Search sofa, fridge, wardrobe…" autocomplete="off"><span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></span></label>
                   <div class="inventory-filters" role="group" aria-label="Furniture categories">
                     <button type="button" class="is-active" data-category="all" aria-pressed="true">ALL</button>
                     <button type="button" data-category="living" aria-pressed="false">LIVING</button>
@@ -88,31 +97,34 @@
                     <button type="button" data-category="other" aria-pressed="false">BOXES & MORE</button>
                   </div>
                   <div class="inventory-grid" id="inventory-grid" aria-live="polite"></div>
-                  <button class="custom-item-toggle" id="custom-item-toggle" type="button" aria-expanded="false" aria-controls="custom-item-fields"><span aria-hidden="true">＋</span> CAN’T FIND IT? ADD YOUR OWN ITEM</button>
+                  <button class="custom-item-toggle" id="custom-item-toggle" type="button" aria-expanded="false" aria-controls="custom-item-fields"><span aria-hidden="true">+</span> CAN’T FIND IT? ADD YOUR OWN ITEM</button>
                   <div class="custom-item-fields" id="custom-item-fields" hidden>
                     <label>Item name<input id="custom-item-name" type="text" placeholder="e.g. Piano stool" maxlength="60"></label>
                     <div class="custom-dimensions"><label>Length (cm)<input id="custom-item-length" type="number" min="1" max="450" inputmode="decimal" placeholder="80"></label><label>Width (cm)<input id="custom-item-width" type="number" min="1" max="220" inputmode="decimal" placeholder="50"></label><label>Height (cm)<input id="custom-item-height" type="number" min="1" max="220" inputmode="decimal" placeholder="70"></label></div>
                     <button class="custom-add" id="custom-item-add" type="button">ADD TO MY LOAD <span aria-hidden="true">→</span></button>
                   </div>
+                    </div>
+                    <footer class="inventory-picker-foot"><span id="inventory-picker-count">0 ITEMS ADDED</span><button id="inventory-picker-done" type="button">DONE <span aria-hidden="true">→</span></button></footer>
+                  </div>
                 </div>
                 <aside class="inventory-preview" id="load-preview-panel" aria-labelledby="load-preview-title">
                   <div class="preview-top"><div><span class="step-kicker">LIVE LOAD GUIDE</span><div class="preview-title-line"><h3 id="load-preview-title">YOUR VAN</h3><span class="preview-van-name">COMPACT LUTON</span></div></div><span class="preview-item-count" id="preview-item-count">0 ITEMS</span><button class="van-drawer-close" id="van-drawer-close" type="button" aria-label="Close van preview">×</button></div>
                   <div class="preview-bay" aria-label="Illustrated load in the selected van"><div class="preview-bay-items" id="preview-bay-items"><span class="preview-empty">YOUR ITEMS APPEAR HERE<br>AS YOU ADD THEM</span></div><span class="preview-bay-floor" aria-hidden="true"></span></div>
-                  <div class="fit-readout" role="status" aria-live="polite"><div><strong id="fit-status">READY TO PACK</strong><span id="fit-percent">0% OF PLANNING SPACE</span></div><span class="fit-icon" id="fit-icon" aria-hidden="true">✓</span></div>
+                  <div class="fit-readout" role="status" aria-live="polite"><div><strong id="fit-status">READY TO PACK</strong><span id="fit-percent">0% OF PLANNING SPACE</span></div><span class="fit-icon" id="fit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg></span></div>
                   <div class="fit-meter"><span id="fit-meter-fill"></span></div>
                   <p class="fit-explainer" id="fit-explainer">Add your first item. This is a volume guide, not a confirmed packing plan.</p>
                   <div class="selected-items" id="selected-items" aria-label="Items in your move"></div>
                 </aside>
               </div>
             </section>
-            <button class="van-peek-tab" id="van-peek-tab" type="button" aria-controls="load-preview-panel" aria-expanded="false" aria-label="Open your van preview"><span class="van-peek-arrow" aria-hidden="true">❮</span><span>YOUR<br>VAN</span><strong id="van-peek-count">0</strong></button>
+            <button class="van-peek-tab" id="van-peek-tab" type="button" aria-controls="load-preview-panel" aria-expanded="false" aria-label="Open your van preview"><span class="van-peek-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="m15 4-8 8 8 8"/></svg></span><span>YOUR<br>VAN</span><strong id="van-peek-count">0</strong></button>
             <button class="van-drawer-backdrop" id="van-drawer-backdrop" type="button" aria-label="Close van preview" hidden></button>
             <section class="booking-step" data-booking-step hidden aria-labelledby="move-title">
               <div class="booking-step-heading"><div><span class="step-kicker">02 · YOUR MOVE</span><h3 id="move-title">TELL US THE BASICS.</h3></div><p>Just enough to shape the right plan.</p></div>
               <fieldset class="choice-field"><legend>What are you moving?</legend><div class="choice-grid choice-grid-three">
-                <label class="choice-card"><input type="radio" name="moveType" value="House removal" required><span class="choice-card-body"><b aria-hidden="true">⌂</b><strong>WHOLE HOME</strong><small>A complete move</small></span></label>
-                <label class="choice-card"><input type="radio" name="moveType" value="Furniture move"><span class="choice-card-body"><b aria-hidden="true">▣</b><strong>A FEW ITEMS</strong><small>Furniture or appliances</small></span></label>
-                <label class="choice-card"><input type="radio" name="moveType" value="Other move"><span class="choice-card-body"><b aria-hidden="true">✦</b><strong>SOMETHING ELSE</strong><small>Tell us the details</small></span></label>
+                <label class="choice-card"><input type="radio" name="moveType" value="House removal" required><span class="choice-card-body"><svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15 16 4l13 11M7 13v15h18V13M13 28v-9h6v9"/></svg><strong>WHOLE HOME</strong><small>A complete move</small></span></label>
+                <label class="choice-card"><input type="radio" name="moveType" value="Furniture move"><span class="choice-card-body"><svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 10 12-6 12 6v13l-12 6-12-6zM4 10l12 6 12-6M16 16v13"/></svg><strong>A FEW ITEMS</strong><small>Furniture or appliances</small></span></label>
+                <label class="choice-card"><input type="radio" name="moveType" value="Other move"><span class="choice-card-body"><svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="12"/><path d="M12.8 12.3a3.5 3.5 0 1 1 5.9 2.5c-1.8 1.3-2.7 2-2.7 4.2M16 24h.01"/></svg><strong>SOMETHING ELSE</strong><small>Tell us the details</small></span></label>
               </div></fieldset>
               <fieldset class="choice-field"><legend>Home size</legend><div class="choice-grid choice-grid-three">
                 <label class="choice-card"><input type="radio" name="size" value="Studio / 1 bedroom"><span class="choice-card-body"><strong>STUDIO / 1 BED</strong></span></label>
