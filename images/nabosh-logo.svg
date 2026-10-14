@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 150" role="img" aria-labelledby="title">
+  <title id="title">Nabosh Removals</title>
+  <defs><linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#006d78"/><stop offset="1" stop-color="#37b7b3"/></linearGradient></defs>
+  <path d="M24 65 88 17l67 48" fill="none" stroke="#053552" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M57 53v47h27V57l46 42h24V53" fill="none" stroke="url(#teal)" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M155 47h58c11 0 19 3 25 12l20 29h15c8 0 14 6 14 14v3H155z" fill="url(#teal)"/>
+  <path d="M211 57h15c5 0 8 2 12 8l11 17h-38z" fill="#e9fbfc"/>
+  <circle cx="190" cy="105" r="15" fill="#053552"/><circle cx="190" cy="105" r="7" fill="#fff"/>
+  <circle cx="259" cy="105" r="15" fill="#053552"/><circle cx="259" cy="105" r="7" fill="#fff"/>
+  <text x="14" y="131" fill="#06283f" font-family="Arial,sans-serif" font-size="39" font-weight="900" letter-spacing="2">NABOSH</text>
+  <text x="169" y="148" fill="#063652" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">Removals</text>
+</svg>
