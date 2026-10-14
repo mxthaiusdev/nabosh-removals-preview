@@ -1,0 +1,158 @@
+/* Nabosh's current palette and type, applied to the interactive preview. */
+:root{
+  --navy:#0b4147;
+  --deep:#09272a;
+  --ink:#0b4147;
+  --teal:#076d79;
+  --teal2:#25bfd0;
+  --mist:#eaf4f6;
+  --paper:#f2f5fa;
+  --line:#cfeaed;
+}
+body{font-family:'Hanken Grotesk',Arial,sans-serif;color:var(--ink);background:var(--paper)}
+h1,h2,h3,h4,.button,.nav-cta,.header-book,.size-option,.booking-mode button,.booking-next,.booking-back,.inventory-launch-copy strong,.inventory-picker-head h4,.inventory-picker-foot button,.inventory-item-copy strong,.custom-item-toggle,.custom-add,.preview-top h3,.preview-van-name,.fit-readout strong,.preview-empty,.choice-card-body strong,.trust-grid strong,.campaign-benefits span,.campaign-visual-band span,.campaign-visual-band strong,.campaign-stamp,.service-steps strong,.closing-contact strong{
+  font-family:Outfit,Arial,sans-serif!important;
+}
+.topline{background:#0b4147;color:#eaf4f6}
+.site-header{background:#fff;box-shadow:0 1px 0 #dce9ea,0 8px 26px #0b41470a}
+.brand{min-width:160px}
+.brand img{width:143px;height:82px;object-fit:contain;object-position:left center}
+.site-nav{font-family:Outfit,Arial,sans-serif;letter-spacing:0}
+.site-nav>a:not(.nav-cta){color:#173f43}
+.nav-cta,.header-book{border-radius:16px;background:#306f7b;color:#fff;box-shadow:0 5px 12px #0b41471c}
+.button-primary{border-radius:16px;background:linear-gradient(105deg,#306f7b,#076d79);box-shadow:0 8px 20px #0b414722}
+.nav-cta:hover,.header-book:hover{background:#09545d}
+.menu-toggle{color:#0b4147}
+
+.hero{background-color:#f9fbfc;background-image:radial-gradient(circle at 72% 30%,#dff3f5 0,transparent 40%),linear-gradient(#0b414708 1px,transparent 1px),linear-gradient(90deg,#0b414708 1px,transparent 1px);background-size:auto,46px 46px,46px 46px}
+.hero h1{font-weight:800;font-size:clamp(46px,3.5vw,56px);line-height:1;letter-spacing:-.06em;color:#0b4147}
+.hero h1 em{color:#306f7b}
+.hero-lead{color:#37686e;line-height:1.5}
+.hero-fit .van-load-pane{border:1px solid #cfeaed;border-radius:26px;background:radial-gradient(ellipse at 53% 42%,#f7fdfd 0,#e6f5f6 58%,#cce8ea 100%);box-shadow:0 18px 38px #0b414721,0 4px 0 #d2e9ea}
+.hero-fit .stage-grid{opacity:.13}
+.hero-fit .van-item-detail{border-radius:10px;background:#0b4147e8}
+.hero-size-options .size-option{border:1px solid #c3e0e3;border-radius:16px;background:#fff;color:#0b4147;font-size:17px;font-weight:800;letter-spacing:-.015em;box-shadow:0 9px 18px #0b414710}
+.hero-size-options .size-option.is-active{border-color:#306f7b;background:#306f7b;color:#fff}
+.hero-size-options .size-option span{font-family:Outfit,Arial,sans-serif;color:#076d79}
+.hero-size-options .size-option.is-active span{color:#cfeaed}
+
+.booking-section{background-color:#eaf4f6;background-image:linear-gradient(#0b414706 1px,transparent 1px),linear-gradient(90deg,#0b414706 1px,transparent 1px);background-size:52px 52px}
+.booking-top{color:#0b4147}
+.booking-top h2{font-size:clamp(43px,4.5vw,67px);font-weight:800;line-height:.98;letter-spacing:-.055em}
+.booking-top h2 em{color:#306f7b}
+.booking-mode{border-color:#c5e1e4;background:#dceff1;border-radius:17px}
+.booking-mode button{border-radius:12px;color:#315c63;font-weight:800;font-size:13px;letter-spacing:0}
+.booking-mode button.is-active{background:#306f7b;color:#fff;box-shadow:0 3px 9px #0b414729}
+.booking-section .booking-form,.enquiry-form{border:1px solid #d5e8e9;border-radius:20px;background:#fff;box-shadow:0 16px 34px #0b41471c}
+.booking-section .booking-progress{color:#076d79}
+.booking-section .booking-progress-track{border-radius:8px;background:#eaf4f6}
+.booking-section .booking-progress-track span{border-radius:8px;background:linear-gradient(90deg,#306f7b,#62ceda)}
+.inventory-shop{background:#fff;border-radius:0 0 0 18px}
+.booking-step-heading h3{font-size:clamp(30px,2.8vw,43px);font-weight:800;line-height:1;letter-spacing:-.045em}
+.inventory-launch{border-color:#a1dce3;border-radius:24px;background:radial-gradient(circle at 76% 73%,#bfebee 0,#eaf7f7 50%,#f9fcfc 100%);box-shadow:0 12px 25px #0b414715}
+.inventory-launch:hover,.inventory-launch:focus-visible{box-shadow:0 17px 30px #0b414723}
+.inventory-launch-copy small{color:#076d79}
+.inventory-launch-copy strong{font-size:clamp(30px,3.1vw,46px);font-weight:800;line-height:.98;letter-spacing:-.045em}
+.inventory-launch-copy>span{background:#306f7b}
+.inventory-picker-head{background:linear-gradient(120deg,#0b4147,#306f7b)}
+.inventory-picker-head h4{font-weight:800;letter-spacing:-.04em}
+.inventory-picker:not([hidden]){background:#f9fcfc}
+.inventory-picker-foot{background:#eaf4f6}
+.inventory-picker-foot button,.custom-add{border-radius:12px;background:#306f7b}
+.inventory-filters button,.inventory-item-card,.choice-card-body,.inventory-search input,.booking-section .booking-text-field input,.booking-section .booking-text-field textarea{border-color:#cfe4e6;border-radius:14px}
+.inventory-item-card,.choice-card-body{background:linear-gradient(#fff,#f3f9f9);box-shadow:0 3px 0 #d8eaeb}
+.inventory-filters button.is-active{background:#306f7b;border-color:#306f7b}
+.inventory-item-copy strong{font-weight:800;font-size:16px;line-height:1.05;letter-spacing:-.02em}
+.inventory-card-add{background:#306f7b}
+.inventory-preview{background:linear-gradient(150deg,#0b4147,#173f4c);border-radius:0 0 18px 0}
+.preview-top h3{font-size:31px;line-height:1;font-weight:800;letter-spacing:-.05em}
+.preview-van-name{font-size:15px;font-weight:800;letter-spacing:-.01em}
+.preview-bay{border-color:#a1dce3;border-radius:14px 14px 4px 4px;background:linear-gradient(180deg,#eefbfb,#cfeaed)}
+.preview-empty{font-size:18px;line-height:1.1;letter-spacing:-.02em}
+.fit-readout strong{font-size:21px;font-weight:800;line-height:1.05;letter-spacing:-.03em}
+.booking-section .booking-actions{background:#f9fcfc;border-radius:0 0 20px 20px}
+.booking-section .booking-next,.enquiry-actions>button{border-radius:12px;background:#306f7b;font-family:Outfit,Arial,sans-serif;font-weight:800;font-size:16px;letter-spacing:0}
+.booking-section .booking-back{border-radius:12px;font-weight:800;font-size:15px;letter-spacing:0}
+.van-peek-tab{font-family:Outfit,Arial,sans-serif!important;background:#306f7b}
+.enquiry-intro h3{font-family:Outfit,Arial,sans-serif;font-size:clamp(38px,4.5vw,66px);line-height:1;letter-spacing:-.055em}
+
+.trust-band{background:#f5f9fa}
+.trust-intro h2,.services-heading h2,.closing-cta h2{font-weight:800;font-size:clamp(50px,5vw,82px);line-height:1;letter-spacing:-.05em}
+.trust-intro h2 em,.services-heading h2 em{color:#306f7b}
+.trust-grid>.trust-card,.trust-grid>.trust-card:first-child,.trust-grid>.trust-card:last-child{border:1px solid #d2e6e8;border-bottom:3px solid #62ceda;border-radius:22px;box-shadow:0 14px 30px #0b414710}
+.trust-grid .trust-icon{border-radius:18px;background:#eaf4f6;box-shadow:inset 0 0 0 1px #cfeaed;color:#0b4147}
+.trust-grid .trust-card strong{font-weight:800;font-size:21px;line-height:1.1;letter-spacing:-.025em}
+.quote-campaign,.quote-campaign::before{background:#0b4147}
+.quote-campaign::after{background-size:52px 52px;opacity:.07}
+.campaign-copy h2{font-size:clamp(60px,6.2vw,98px);line-height:.97;letter-spacing:-.05em}
+.campaign-copy h2 em{color:#a1dce3}
+.campaign-benefits span{font-weight:800;font-size:13px;line-height:1.2}
+.campaign-button{border-radius:16px;background:#a1dce3;color:#0b4147;box-shadow:0 10px 25px #061f2055}
+.campaign-visual{border-radius:24px;overflow:hidden;transform:none;background:#cfeaed;box-shadow:0 23px 45px #061f2070}
+.campaign-visual-band span{font-size:clamp(24px,2.8vw,39px);line-height:1}
+.campaign-visual-band strong{font-size:clamp(42px,5vw,72px);line-height:.97}
+.campaign-stamp{background:#306f7b;font-size:20px}
+.services-section{background:#fff}
+.services-visual{border-radius:24px;overflow:hidden;background:#0b4147;box-shadow:0 22px 35px #0b414726}
+.service-steps>div{border:1px solid #d0e5e7;border-left:4px solid #62ceda;border-radius:18px;background:#f5f9fa}
+.service-steps strong{font-size:clamp(23px,2.3vw,32px);line-height:1.1;letter-spacing:-.035em}
+.services-button{border-radius:16px;background:#306f7b;box-shadow:0 12px 24px #0b414719}
+.closing-cta{background:linear-gradient(135deg,#306f7b,#0b4147)}
+.closing-cta h2{font-size:clamp(68px,8vw,120px);line-height:.98}
+.closing-book,.closing-contact{border-radius:18px;box-shadow:0 12px 25px #09272a25}
+.site-footer{background:linear-gradient(180deg,#0b4147 0%,#306f7b 68%,#eaf4f6 100%)}
+.footer-brand img{width:min(100%,300px);height:auto}
+
+/* Carry the same brand treatment through the city and service pages. */
+.landing-nav{font-family:Outfit,Arial,sans-serif;letter-spacing:0}
+.landing-hero{background-color:#f9fbfc;background-image:radial-gradient(circle at 75% 30%,#e0f4f5,transparent 42%),linear-gradient(#0b414708 1px,transparent 1px),linear-gradient(90deg,#0b414708 1px,transparent 1px);background-size:auto,46px 46px,46px 46px}
+.landing-hero h1,.landing-detail h2,.landing-cta h2{font-family:Outfit,Arial,sans-serif!important;font-weight:800;line-height:1;letter-spacing:-.055em;text-transform:none}
+.landing-hero h1{font-size:clamp(54px,6.2vw,94px)}
+.landing-detail h2{font-size:clamp(50px,5.2vw,76px)}
+.landing-cta h2{font-size:clamp(61px,6.3vw,94px)}
+.landing-lead{color:#37686e}
+.landing-photo,.landing-detail-visual{border-radius:24px;overflow:hidden;box-shadow:0 18px 36px #0b41471a}
+.landing-photo .team-photo,.landing-detail-visual .before-after-photo{box-shadow:0 12px 24px #0b41472b}
+.landing-trust{font-family:Outfit,Arial,sans-serif;font-size:17px;letter-spacing:-.01em}
+.landing-trust span{display:flex;align-items:center;gap:9px}
+.landing-trust span::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:#62ceda}
+.landing-detail{background:#eaf4f6}
+.landing-cta{background:linear-gradient(135deg,#306f7b,#0b4147)}
+.landing-cta h2 em{color:#a1dce3}
+.policy h1,.policy h2{font-family:Outfit,Arial,sans-serif!important;text-transform:none;letter-spacing:-.05em}
+.policy h1{line-height:1}
+.policy p,.policy li{color:#37686e}
+
+@media(max-width:900px){
+  .hero h1{font-size:clamp(43px,7vw,66px)}
+  .hero-size-options .size-option{font-size:14px}
+  .campaign-copy h2{font-size:clamp(56px,8vw,82px)}
+}
+@media(max-width:650px){
+  .brand img{width:108px;height:63px}
+  .site-nav.is-open a:not(.nav-cta){color:#fff}
+  .hero h1{font-size:clamp(33px,8.5vw,46px);line-height:.98;max-width:calc(100% - 103px)}
+  .hero-lead{font-size:12px}
+  .hero-fit .van-load-pane{border-radius:18px}
+  .hero-size-options .size-option{min-height:53px;padding:5px 2px;font-size:11px;line-height:1.1;border-radius:12px;box-shadow:0 5px 12px #0b414714}
+  .booking-top h2{font-size:clamp(27px,8vw,38px);line-height:.96}
+  .booking-mode{border-radius:13px}
+  .booking-mode button{font-size:11px}
+  .booking-section .booking-form,.enquiry-form{border-radius:14px;box-shadow:0 8px 20px #0b41471b}
+  .inventory-shop{border-radius:0 0 14px 14px}
+  .booking-step-heading h3{font-size:clamp(23px,6.3vw,32px)}
+  .inventory-launch{min-height:206px;padding:17px;border-radius:17px}
+  .inventory-launch-copy{min-height:150px}
+  .inventory-launch-copy strong{font-size:clamp(25px,7vw,36px)}
+  .inventory-picker-head h4{font-size:31px}
+  .inventory-preview{border-radius:14px 14px 0 0}
+  .preview-top h3{font-size:24px}
+  .booking-section .booking-next{font-size:13px}
+  .trust-intro h2,.services-heading h2{font-size:clamp(42px,11vw,62px)}
+  .campaign-copy h2{font-size:clamp(47px,11vw,68px)}
+  .closing-cta h2{font-size:clamp(57px,14vw,86px)}
+  .landing-hero h1{font-size:clamp(44px,11vw,62px)}
+  .landing-detail h2{font-size:clamp(41px,10vw,57px)}
+  .landing-cta h2{font-size:clamp(49px,12vw,68px)}
+  .landing-trust{font-size:12px}
+}
